@@ -1,0 +1,305 @@
+<div class="container">
+    <h1>Parámetros</h1>
+
+    <!-- Formulario -->
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="codigoParametro">Código Parámetro:</label>
+              <input type="text" class="form-control" id="codigoParametro">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="parametro">Parámetro:</label>
+              <input type="text" class="form-control" id="parametro">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="criterio">Criterio:</label>
+              <input type="text" class="form-control" id="criterio">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="descripcion">Descripción:</label>
+              <input type="text" class="form-control" id="descripcion">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="valor">Valor:</label>
+              <input type="text" class="form-control" id="valor">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="extra">Extra:</label>
+              <input type="text" class="form-control" id="extra">
+            </div>
+          </div>
+          <button class="btn btn-primary ml-2" type="button">
+            <i class="fas fa-plus"></i> Agregar
+          </button>
+		      <button class="btn btn-primary ml-2" type="button">
+        <i class="fas fa-search"></i> Buscar
+      </button>
+        </form>
+      </div>
+    </div>
+
+   <!-- Tabla con scroll -->
+    <div >
+      <table class="table table-striped mt-4">
+        <thead>
+          <tr>
+            <th>Código Parámetro</th>
+            <th>Parámetro</th>
+            <th>Criterio</th>
+            <th>Descripción</th>
+            <th>Valor</th>
+            <th>Extra</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Estado_Radicado</td>
+            <td>SI</td>
+            <td></td>
+            <td>exitoso</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Estado_Radicado</td>
+            <td>NO</td>
+            <td></td>
+            <td>fallido</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>Descripción_Radicado</td>
+            <td>SI</td>
+            <td>Radicado</td>
+            <td>exitoso</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>004</td>
+            <td>Descripción_Radicado</td>
+            <td>NO</td>
+            <td>Cumple con el asunto pero no contiene XML o .ZIP</td>
+            <td>fallido</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>005</td>
+            <td>Descripción_Radicado</td>
+            <td>NO</td>
+            <td>Contiene XML o .ZIP pero no cumple el asunto</td>
+            <td>fallido</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>006</td>
+            <td>Descripción_Radicado</td>
+            <td>NO</td>
+            <td>Anexos diferentes al .ZIP o XML</td>
+            <td>fallido</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>007</td>
+            <td>Descripción_Radicado</td>
+            <td>NO</td>
+            <td>No contiene anexos</td>
+            <td>fallido</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>009</td>
+            <td>Caja</td>
+            <td>SI</td>
+            <td>SI BPM</td>
+            <td>860066942@factureinbox.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>010</td>
+            <td>Caja</td>
+            <td>NO</td>
+            <td>NO BPM</td>
+            <td>860066942@factureinboxcaja.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>011</td>
+            <td>Prestación</td>
+            <td>SI</td>
+            <td>SI BPM</td>
+            <td>860066942@factureinbox.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>012</td>
+            <td>Prestacion</td>
+            <td>NO</td>
+            <td>NO BPM</td>
+            <td>860066942@factureinboxprestacion.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>013</td>
+            <td>Aseguramiento</td>
+            <td>NO</td>
+            <td>NO BPM</td>
+            <td>860066942@factureinboxaseg.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>014</td>
+            <td>Alojamiento</td>
+            <td>NO</td>
+            <td>NO BPM</td>
+            <td>860066942@factureinboxaloj.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>015</td>
+            <td>Vivienda</td>
+            <td>NO</td>
+            <td>NO BPM</td>
+            <td>860066942@factureinboxvivienda.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>016</td>
+            <td>Infraestructura</td>
+            <td>NO</td>
+            <td>NO BPM</td>
+            <td>860066942@factureinboxinfra.co</td>
+            <td></td>
+            <td>
+              <button class="btn btn-sm btn-primary">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="btn btn-sm btn-danger">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>

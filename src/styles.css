@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'theme.css';
+/*@import '~@aws-amplify/ui-angular/theme.css';*/
+[data-amplify-authenticator] {
+    --amplify-components-button-primary-background-color: #f60;
+    --amplify-components-button-primary-hover-background-color: orange;
+    --amplify-components-button-primary-focus-background-color: darkorange;
+    --amplify-components-button-primary-active-background-color: orangered;
+    --amplify-components-button-link-color: darkorange;
+    --amplify-components-button-link-hover-color: orange;
+    --amplify-components-button-link-focus-color: darkorange;
+    --amplify-components-button-link-active-color: orangered;
+    --amplify-components-button-link-active-background-color: transparent;
+    --amplify-components-button-link-focus-background-color: transparent;
+    --amplify-components-button-link-hover-background-color: transparent;
+  }
+  
